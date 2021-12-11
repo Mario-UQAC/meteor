@@ -1,0 +1,12 @@
+component_depth: 1
+languages:
+- name: javascript
+  production:
+    exclude:
+      - /docs/.*
+      - /guide/.*
+      - /npm-packages/.*
+      - /scripts/.*
+  test:
+    include:
+      - /packages/*tests.js
